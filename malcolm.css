@@ -1,0 +1,217 @@
+#page {
+    font-family: Georgia, serif;
+}
+
+
+.article {
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 199, 199);
+    padding: 20px;
+    margin: 5px auto 5px auto;
+   
+    
+    
+    
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+nav {
+    margin: auto auto auto 255px; 
+}
+
+.p1 {
+    width: 209px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 199, 199);
+    
+}
+   
+
+
+.side {
+    width: 230px;
+    border-style: solid;
+    border-width: 1px;;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: rgb(199, 199, 199);
+    float: right;
+    width: 200px;
+    margin-top: 20px;
+    
+    
+}
+
+.p2 {
+    text-align: center;
+}
+
+.p1, .p1>img {
+    border-radius: 10px;
+    border-color: rgb(199, 199, 199);
+  
+}
+
+a { 
+    color: #006994;
+}
+
+a:link { text-decoration: none;
+ }
+a:visited { text-decoration: none; 
+}
+a:hover { text-decoration: underline; 
+}
+a:active { text-decoration: underline; 
+}
+
+.related {
+    text-align: center;
+}
+
+button {
+    color: #006994;
+    background-color: white;
+    padding: 8px;
+    width: 180px;
+    height: 38px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(199, 199, 199);
+    
+
+}
+
+.sum { 
+    
+    outline:none;
+    cursor: pointer;
+    border: solid;
+    width: 275px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 6px;
+}
+
+
+.line2 {
+   
+        position: relative;
+        max-width: 285px;
+    
+    
+  }
+
+.line1:after {
+    content: " ";
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: #006994;
+
+}
+
+.line2:after {
+    content: " ";
+    height: 2px;
+    width: 165px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: #006994;
+
+}
+
+.line1{
+    position: relative;
+    max-width: 296px;
+}
+
+.article {
+   
+    font-size: 1.0rem;
+    line-height: 1.6;
+    
+
+}
+
+.disc {
+   
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.who, .what {
+    padding:0;
+    margin:0;
+}
+
+
+.list {
+    display:inline;
+    margin: 0;
+   
+
+   
+}
+
+.print, .cite, .share {
+    width: 60px;
+    font-size: 11px;
+    
+  
+}
+
+.feedback {
+    width: 80px;
+    font-size: 11px;
+    
+}
+
+.moreopt {
+    width: 40px;
+    font-size: 11px;
+  
+    
+}
+
+.share {
+    font-weight: bold;
+    position: relative;
+}
+.share:before {
+ 
+    font-size: 2.2em;
+    position: absolute;
+    bottom: -2.5px;
+    left: -4px;
+}
+.share:after {
+    
+    font-size: 2em;
+    position: absolute;
+    bottom: -6px;
+    right: -7px;
+}
+
+img.mrx {
+    height: 200px;
+    width: 210px;
+}
+
+#list1 {
+    padding-right: 200px;
+  
+}
